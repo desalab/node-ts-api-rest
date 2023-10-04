@@ -1,0 +1,55 @@
+
+https://www.youtube.com/watch?v=TVm_Qaw41HU
+
+terminal:
+    mkdir nodejs-typescript-rest-api
+    cd nodejs-typescript-rest-api
+    npm init -y
+    npm install express typescript ts-node @types/express @types/node
+    npm install --save-dev typescript
+
+tsconfig.json:
+    {
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": "./build",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    }
+    }
+
+package.json:
+    "scripts": {
+    "start": "ts-node src/app.ts"
+    }
+
+terminal:
+    docker build . -t api-usuarios-image:1.0
+    
+    docker images
+
+    docker run --name api-usuarios-container -p3000:3000 api-usuarios-image:1.0
+    docker run -d --name api-usuarios-container -p3000:3000 api-usuarios-image:1.0
+
+    docker start api-usuarios-container
+    docker stop api-usuarios-container
+
+
+    docker run -d --name api-usuarios-container -p3000:3000 -v .:/app  api-usuarios-image:1.0
+
+publicar imagen en DockerHub:
+
+Crea una cuenta en Docker Hub: https://hub.docker.com/signup
+
+Inicia sesión en Docker Hub: Abre una terminal y utiliza el comando docker login para iniciar sesión en Docker Hub. Debes proporcionar tus credenciales de Docker Hub (nombre de usuario y contraseña) cuando se te soliciten:
+
+Etiqueta tu imagen: Antes de subir tu imagen a Docker Hub, debes etiquetarla con el formato correcto. La etiqueta debe seguir el formato nombre-de-usuario/nombre-de-la-imagen:etiqueta. Puedes usar el comando docker tag para hacerlo. 
+
+docker tag nombre-de-la-imagen:etiqueta tu-nombre-de-usuario/nombre-de-la-imagen:etiqueta
+
+Sube la imagen: Utiliza el comando docker push para subir la imagen etiquetada a Docker Hub:
+
+
