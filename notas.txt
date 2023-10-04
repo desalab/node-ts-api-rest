@@ -52,4 +52,40 @@ docker tag nombre-de-la-imagen:etiqueta tu-nombre-de-usuario/nombre-de-la-imagen
 
 Sube la imagen: Utiliza el comando docker push para subir la imagen etiquetada a Docker Hub:
 
+----------------------
 
+Google Cloud Run es un servicio de Google Cloud Platform (GCP) que proporciona una plataforma completamente gestionada para ejecutar contenedores de manera escalable y sin servidor. Permite a los desarrolladores ejecutar aplicaciones en contenedores de manera fácil y rápida sin preocuparse por la gestión de servidores o la escalabilidad. 
+
+https://node-ts-api-rest-zz3hjm5bjq-uc.a.run.app
+
+
+Google Cloud Platform (GCP) es una plataforma de computación en la nube ofrecida por Google. Proporciona una amplia gama de servicios en la nube que incluyen almacenamiento, bases de datos, redes, análisis, aprendizaje automático, inteligencia artificial, Internet de las cosas (IoT), desarrollo de aplicaciones, seguridad y más. GCP permite a las organizaciones y desarrolladores construir, implementar y escalar aplicaciones y servicios en la nube de manera eficiente y segura.
+
+Algunos de los componentes y servicios clave de Google Cloud Platform incluyen:
+
+Google Compute Engine: Ofrece máquinas virtuales escalables y personalizables que permiten ejecutar aplicaciones en una infraestructura global de Google.
+
+Google Kubernetes Engine (GKE): Proporciona un servicio gestionado para orquestar y administrar contenedores Docker utilizando Kubernetes.
+
+Google Cloud Storage: Un servicio de almacenamiento en la nube escalable y seguro que permite almacenar y recuperar datos en la nube.
+
+Google Cloud BigQuery: Una herramienta de análisis de datos completamente gestionada que permite ejecutar consultas SQL sobre conjuntos de datos grandes.
+
+Google Cloud Firestore y Firebase: Ofrecen bases de datos NoSQL en tiempo real y una plataforma de desarrollo de aplicaciones móviles y web.
+
+Google Cloud Pub/Sub: Un servicio de mensajería y publicación-suscripción que permite construir aplicaciones en tiempo real y eventos.
+
+Google Cloud Machine Learning Engine: Facilita el desarrollo, entrenamiento y despliegue de modelos de aprendizaje automático y aprendizaje profundo.
+
+Google Cloud Functions: Un servicio sin servidor que permite ejecutar código en respuesta a eventos en la nube sin tener que administrar la infraestructura subyacente.
+
+Google Cloud Identity & Access Management (IAM): Proporciona control de acceso y seguridad a los recursos de GCP.
+
+Google Cloud Security: Ofrece soluciones de seguridad, cumplimiento y gestión de identidad para proteger los datos y las aplicaciones en la nube.
+
+Google Cloud Networking: Incluye servicios como VPC (Virtual Private Cloud) para redes privadas virtuales y Cloud Load Balancing para equilibrar la carga de tráfico.
+
+
+---------------------------
+
+ 

@@ -10,3 +10,15 @@ Content-Type: application/json
     "id":7,
     "nombre": "Abel Lopez"
 }
+
+###
+GET https://node-ts-api-rest-zz3hjm5bjq-uc.a.run.app/api/v1/usuarios
+
+###
+POST https://node-ts-api-rest-zz3hjm5bjq-uc.a.run.app/api/v1/usuarios
+Content-Type: application/json
+
+{
+    "id":7,
+    "nombre": "Abel Lopez"
+}

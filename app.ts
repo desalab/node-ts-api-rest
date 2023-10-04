@@ -11,6 +11,7 @@ const usuarios: { id: number; nombre: string }[] = [
   { id: 1, nombre: 'Ana Gomez' },
   { id: 2, nombre: 'Julio Vargas' },
   { id: 3, nombre: 'Jorge Chavez' },
+  { id: 9, nombre: 'Marco Aliaga' }
 ];
 
 // GET /api/v1/usuarios
